@@ -1,0 +1,10 @@
+/Users/Jonah/Revature/Notes/day2-ex1/bin/Debug/netcoreapp3.1/stair8.deps.json
+/Users/Jonah/Revature/Notes/day2-ex1/bin/Debug/netcoreapp3.1/stair8.runtimeconfig.json
+/Users/Jonah/Revature/Notes/day2-ex1/bin/Debug/netcoreapp3.1/stair8.runtimeconfig.dev.json
+/Users/Jonah/Revature/Notes/day2-ex1/bin/Debug/netcoreapp3.1/stair8.dll
+/Users/Jonah/Revature/Notes/day2-ex1/bin/Debug/netcoreapp3.1/stair8.pdb
+/Users/Jonah/Revature/Notes/day2-ex1/obj/Debug/netcoreapp3.1/stair8.csprojAssemblyReference.cache
+/Users/Jonah/Revature/Notes/day2-ex1/obj/Debug/netcoreapp3.1/stair8.AssemblyInfoInputs.cache
+/Users/Jonah/Revature/Notes/day2-ex1/obj/Debug/netcoreapp3.1/stair8.AssemblyInfo.cs
+/Users/Jonah/Revature/Notes/day2-ex1/obj/Debug/netcoreapp3.1/stair8.dll
+/Users/Jonah/Revature/Notes/day2-ex1/obj/Debug/netcoreapp3.1/stair8.pdb

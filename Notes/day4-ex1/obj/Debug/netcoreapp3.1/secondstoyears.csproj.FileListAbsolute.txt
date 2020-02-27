@@ -1,0 +1,10 @@
+/Users/Jonah/Revature/Notes/day4-ex1/obj/Debug/netcoreapp3.1/secondstoyears.csprojAssemblyReference.cache
+/Users/Jonah/Revature/Notes/day4-ex1/obj/Debug/netcoreapp3.1/secondstoyears.AssemblyInfoInputs.cache
+/Users/Jonah/Revature/Notes/day4-ex1/obj/Debug/netcoreapp3.1/secondstoyears.AssemblyInfo.cs
+/Users/Jonah/Revature/Notes/day4-ex1/bin/Debug/netcoreapp3.1/secondstoyears.deps.json
+/Users/Jonah/Revature/Notes/day4-ex1/bin/Debug/netcoreapp3.1/secondstoyears.runtimeconfig.json
+/Users/Jonah/Revature/Notes/day4-ex1/bin/Debug/netcoreapp3.1/secondstoyears.runtimeconfig.dev.json
+/Users/Jonah/Revature/Notes/day4-ex1/bin/Debug/netcoreapp3.1/secondstoyears.dll
+/Users/Jonah/Revature/Notes/day4-ex1/bin/Debug/netcoreapp3.1/secondstoyears.pdb
+/Users/Jonah/Revature/Notes/day4-ex1/obj/Debug/netcoreapp3.1/secondstoyears.dll
+/Users/Jonah/Revature/Notes/day4-ex1/obj/Debug/netcoreapp3.1/secondstoyears.pdb
