@@ -4,17 +4,24 @@ namespace acronymcreator
 {
     class Program
     {
+        //protected string phrase;
+
         static void Main(string[] args)
         {
             System.Console.WriteLine("Input a term/phrase.");
-            string phrase = getPhrase();
+            string phrase = setPhrase();
             System.Console.WriteLine($"The acronym for this term/phrase is: {createAcronym(phrase)}");
         }
 
-        static string getPhrase()
+        static string setPhrase()
         {
             return Console.ReadLine();
         }
+
+        //public string getPhrase()
+        //{
+        //    return phrase;
+        //}
 
         static string createAcronym(string s)
         {
