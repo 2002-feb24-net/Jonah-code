@@ -8,16 +8,23 @@ namespace acronymcreator
         {
             System.Console.WriteLine("Input a term/phrase.");
             string phrase = getPhrase();
+            System.Console.WriteLine($"The acronym for this term/phrase is: {createAcronym(phrase)}");
         }
 
-        public string getPhrase()
+        static string getPhrase()
         {
-            return Console.Readline();
+            return Console.ReadLine();
         }
 
-        public void makeAcronym()
+        static string createAcronym(string s)
         {
-
+            string[] term = s.Split(' ');
+            string Acronym = "";
+            foreach (string item in term)
+            {
+                Acronym += item[0].ToString().ToUpper();
+            } 
+            return Acronym;
         }
     }
 }
