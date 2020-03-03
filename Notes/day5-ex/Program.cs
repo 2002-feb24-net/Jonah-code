@@ -8,14 +8,15 @@ namespace acronymcreator
 
         public static void Main(string[] args)
         {
-            System.Console.WriteLine("Input a term/phrase.");
             Program Acro = new Program();
+            System.Console.WriteLine("Input a term/phrase.");
+            Acro.setPhrase();
             System.Console.WriteLine($"The acronym for this term/phrase is: {Acro.createAcronym()}");
         }
 
         public Program()
         {
-            setPhrase();
+            setPhrase("");
         }
 
         protected void setPhrase()

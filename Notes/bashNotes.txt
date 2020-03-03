@@ -7,18 +7,21 @@
 
 
 .NET Framework (came around in  2002)
+    Software that can compile and run C#
     Uses C#
+    Only works on windows systems
     Visual Studio
     abs: Entity Framework
 
     Desktop apps: 
 
-    Web: ASP.NET, WCF
+    Web: ASP.NET, 
 
 Mono
     uses C#
 
 .NET Core (came around in 2016)
+    Software that can compile and run C# (the code platform)
     Uses C#
     restructuring of .NET Framework, meant to be a way to work across platforms easily
     abs: EF Core
@@ -27,6 +30,10 @@ Mono
     
     Web: ASP.NET Core
 
+SDK
+    provides the tools to build and run C# code (i.e. the 'dotnet' commands)
+
+
 After making changes to a repository:
 (record the changes in git, locally)
     git add <path> (path is a "." when referencing current folder)
@@ -34,3 +41,23 @@ After making changes to a repository:
 (push the changes to the remote github)
     git push
 
+Git for Windows
+    gave windows users ability to use bash
+    It's a distributed version control sysytem for tracking source code during development 
+    Git itself is useful for storing code repositories and working in a team environment
+    Should know all about 'clone', 'pull', 'status', 'add', 'commit' 'push', etc commands
+
+Bash
+    It's a command line environment (Bourne Again SHell)
+    relative path - starts from the directory you are currently in
+    absolute path - is the entire path up to the directory you are in or the directory you are wanting to go to
+    Know these commands: pwd (prints absolute path), cd, .., mkdir, rm, mv, cp (copies a file or folder), grep (searches for a string instance and prints the line to console), 
+        which (gives the path location of the file you specify), find (searches for files and directories), echo (outputs strings that are passed to it as args), touch (creates a file), 
+        | (allows the output of what's on the left of it to be input for what's on the right), cat (prints content of a file)
+    PATH ???
+    ~  is shorthand for the current user's home folder
+    . is the current directory
+    .. is the current directory's parent folder
+
+VS Code
+    it's the code editor (IDE)
