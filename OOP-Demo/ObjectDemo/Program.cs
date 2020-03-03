@@ -17,7 +17,7 @@ namespace ObjectDemo
                 if(yesOrNo == "y")
                 {
                     string gameStyle = "";
-                    while(!gameStyle.Equals("PvP") || !gameStyle.Equals("PvAI") || !gameStyle.Equals("AIvAI"))
+                    while((!gameStyle.Equals("PvP")) && (!gameStyle.Equals("PvAI")) && (!gameStyle.Equals("AIvAI")))
                     {
                         System.Console.Write("Do you want PvP, PvAI, or AIvAI? ");
                         gameStyle = Console.ReadLine();
