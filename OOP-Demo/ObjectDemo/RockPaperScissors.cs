@@ -24,12 +24,13 @@ namespace ObjectDemo
             int p1Move;
             int p2Move;
 
-            for (int i = 0; i < rounds; i++)
+            for (int i = 0; i < iter; i++)
             {
                 switch(style)
                 {
                     case "PvAI":
-                        System.Console.Write("Rock, paper, or scissors? ");
+                        System.Console.Write("Player 1: Rock, paper, or scissors? ");
+                        player1 = "";
                         player1 = Console.ReadLine();
                         p1Move = ConvertMoveToInt(player1);
                         p2Move = random.Next(0, 3);
@@ -88,15 +89,25 @@ namespace ObjectDemo
 
         protected int ConvertMoveToInt(string choice)
         {
-            switch(choice)
+            bool acceptableChoice = true;
+            do
             {
-                case "Rock": case "rock":
-                    return 0;
-                case "Paper": case "paper":
-                    return 1;
-                default:
-                    return 2;
-            }
+                switch(choice)
+                {
+                    case "Rock": case "rock":
+                        return 0;
+                    case "Paper": case "paper":
+                        return 1;
+                    case "Scissors": case "scissors":
+                        return 2;
+                    default:
+                        acceptableChoice = false;
+                        System.Console.Write("That is not an option! Try again! ");
+                        choice = Console.ReadLine();
+                        continue;
+                }
+            } while(!acceptableChoice);
+            return 0;
         }
 
         public void Summary()
@@ -107,18 +118,25 @@ namespace ObjectDemo
             }
             else if(p1Wins > p2Wins)
             {
-                System.Console.WriteLine($"Player 1 Wins! They won {p1Wins} rounds out of {rounds}!");
+                System.Console.WriteLine($"Player 1 Wins! They won {p1Wins} round(s) out of {rounds}!");
                 System.Console.WriteLine($"There were {draws} draws.");
             } 
             else if(p2Wins > p1Wins)
             {
-                System.Console.WriteLine($"Player 2 Wins! They won {p2Wins} rounds out of {rounds}!");
+                System.Console.WriteLine($"Player 2 Wins! They won {p2Wins} round(s) out of {rounds}!");
                 System.Console.WriteLine($"There were {draws} draws.");
             }
             else
             {
                 System.Console.WriteLine($"It was a draw!");
-                System.Console.WriteLine($"Player 1 and Player 2 each had {p1Wins} wins out of {rounds} rounds! There were {draws} draws!");
+                if(p1Wins == 1)
+                {
+                    System.Console.WriteLine($"Player 1 and Player 2 each had {p1Wins} win out of {rounds} round(s)! There was {draws} draw(s)!");
+                }
+                else
+                {
+                    System.Console.WriteLine($"Player 1 and Player 2 each had {p1Wins} wins out of {rounds} rounds! There were {draws} draws!");
+                }
             }
         }
 
